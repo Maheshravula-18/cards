@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.container{
+    width: 20%;
+    background-color: gray; 
+    margin: 30px;
+    border-radius: 5px;
+    
+}
+.container:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.img img{
+    width: 100%;
+    background-color:red;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.title{
+    text-align: center;
+    font-family: Arial;
+}
+.discription{
+    text-align: center;
+    padding: 4px;
+}
+button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: pink;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.5s;
+
+}
+
